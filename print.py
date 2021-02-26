@@ -27,7 +27,6 @@ def get_city_id(s_city_name):
         #print('city_id=', city_id)
     except Exception as e:
         print("Exception (find):", e)
-        pass
     assert isinstance(city_id, int)
     return city_id
 
